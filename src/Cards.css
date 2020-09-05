@@ -1,0 +1,29 @@
+.container {
+  margin: 50px 0px;
+}
+.card {
+  margin: 0 2% !important;
+}
+.infected {
+  border-bottom: 10px solid #5a809e;
+}
+.infected-text {
+  color: #5a809e;
+}
+.recovered {
+  border-bottom: 10px solid #6cc2bd;
+}
+.recovered-text {
+  color: #6cc2bd;
+}
+.deaths {
+  border-bottom: 10px solid #f57d7c;
+}
+.deaths-text {
+  color: #f57d7c;
+}
+.paper {
+  width: 60%;
+  height: 40%;
+  border-bottom: 7px solid #5a809e;
+}
