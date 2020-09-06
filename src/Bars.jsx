@@ -7,7 +7,7 @@ const Bars = () => {
   let area =[];
   let color=[];
   axios
-    .get("https://covid19bangladesh.pythonanywhere.com/dhaka")
+    .get("https://cors-anywhere.herokuapp.com/https://covid19bangladesh.pythonanywhere.com/dhaka")
     .then(res => {
       for(let item of res.data){
         confirmedData.push(parseInt(item.confirmed));
